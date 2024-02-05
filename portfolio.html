@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ali Ahammad's Web Developer Portifolio</title>
+    <link rel="stylesheet" href="portifolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Ali Ahammad's Portifolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="first">
+            <div class="leftsection">
+                Hi, My name is <span class="purple">Ali Ahammad</span>
+                <div>and Iam a passinoate </div>
+                <span id="element"></span>
+                <div class="button">
+                    <button class="btn" onclick="linkedin()">linkedin</button>
+                    <button class="btn" onclick="Github()">Vist GitHub</button>
+                </div>
+            </div>
+            <div class="rightsection"><img src="/aliahammad/images/a-r.png
+                " alt="iamge"></div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer1">
+                <h3>Ali Ahammad's Developer Portifolio</h3>
+            </div>
+            <div class="footer2">
+                <ul>
+                    <li>home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer3">
+                <ul>
+                    <li>home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer4">
+                <ul>
+                    <li>home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="rights">
+            www.aliahammadportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        const typed = new Typed('#element', {
+            strings: ['Web Developer', 'Linux Admin', 'Amazon Web Services', 'Commvault.'],
+            typeSpeed: 50,
+        });
+        function linkedin(){
+            window.open("https://www.linkedin.com/in/iamaliahammad")
+        }
+        function Github(){
+            window.open("https://github.com/aliahammads")
+        }
+    </script>
+</body>
+
+</html>
